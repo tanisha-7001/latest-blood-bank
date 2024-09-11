@@ -1,17 +1,18 @@
-
-import { withAuthenticator } from '@aws-amplify/ui-react';
-import AdminDashboard from './AdminDashboard';
 import React from 'react';
+import { Authenticator} from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
-
-
-function AdminLogin({ signOut, user }) {
+import AdminDashboard from './AdminDashboard'
+function AdminLogin({ signOut }) {
   return (
-    <>
-      <AdminDashboard />
-      <button onClick={signOut}>Sign out</button>
-    </>
+    <Authenticator hideSignUp={true}>
+      {({ signOut }) => (
+        <>
+          <AdminDashboard />
+          <button onClick={signOut}>Sign out</button>
+        </>
+      )}
+    </Authenticator>
   );
 }
 
-export default withAuthenticator(AdminLogin);
+export default AdminLogin;

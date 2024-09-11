@@ -37,8 +37,8 @@
     background-color: black;
     color: white;
     outline: none;
-    font-size: 18px;
-    padding: 12px 0px;
+    font-size: 19px;
+    padding: 4px;
     margin-bottom: 10px;
     cursor: pointer;
   }
@@ -47,7 +47,7 @@
     background-color: rgb(12, 11, 11);
     color: rgb(252, 244, 244);
     outline: none;
-    font-size: 14px;
+    font-size: 15px;
     padding: 8px 12px;
     cursor: pointer;
   }

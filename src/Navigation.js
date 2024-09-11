@@ -10,9 +10,10 @@ const Navigation = () => {
         <Link to="/user-login" className="login-link">&nbsp;&nbsp;Login as User&nbsp;</Link>
       </div>
       <div>
-        <br/>
+        <br/><br/>
         <Link to="/admin-login" className="login-link">Login as Admin</Link>
       </div>
+      
     </div>
   );
 };
