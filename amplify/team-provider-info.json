@@ -10,6 +10,11 @@
       "StackName": "amplify-latestbloodbank-dev-c55a2",
       "StackId": "arn:aws:cloudformation:ap-south-1:467969006529:stack/amplify-latestbloodbank-dev-c55a2/0453b3c0-7000-11ef-abb3-0278a8b30b39",
       "AmplifyAppId": "d2r6331d3k6k6b"
+    },
+    "categories": {
+      "api": {
+        "latestbloodbank": {}
+      }
     }
   }
 }
